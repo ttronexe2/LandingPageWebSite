@@ -1,0 +1,41 @@
+{
+    "nav": {
+        "nav1": "Home",
+        "nav2": "Menu",
+        "nav3": "About us",
+        "nav4": "Contact"
+    },
+
+    "h1": {
+        "h1": "THE BEST <br/> BURGUERS OF BARCELONA"
+    },
+
+    "btn": {
+        "btn": "Order Now!",
+        "ver": "View +"
+    },
+
+    "h2": {
+        "h2": "Where We <span> At </span>"
+    },
+
+    "text": {
+        "text1": "Explore the 'Big Chicken' menu at La Salle Fast Food with the succulent Big Clucker Burger, juicy breasts, melted cheese, crispy Golden Wings and seasoned potatoes. An irresistible feast that satisfies your chicken cravings. Enjoy!",
+        "text2": "Discover the 'Cheese Burger' menu at La Salle Fast Food. Enjoy the Cheese Supreme Burger with juicy beef patties, melted cheese and seasoned fries. Satisfy your craving for irresistible flavor.Delight yourself!",
+        "text3": "The little ones eat too! Discover the 'Kids Chicken' menu. The menu consists of a Chicken Burger, some small fries, a drink and a dessert.Come and enjoy the whole family!",
+        "text4": "If you come by metro, we recommend getting off at Lesseps L3 and walking 10 minutes to the location"
+
+    },
+
+    "hambre": {
+        "h2": "Are you hungry?"
+    },
+
+    "form": {
+        "f1": "Contact:",
+        "f2": "First Name:",
+        "f3": "Last Name:",
+        "f4": "Mail:",
+        "f5": "Message:"
+    }
+}

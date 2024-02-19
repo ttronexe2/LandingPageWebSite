@@ -1,0 +1,378 @@
+@import url('https://fonts.cdnfonts.com/css/insaniburger');
+
+/*Para todos los H1,H2,H3 = font-family: 'Insaniburger', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Para los textos = font-family: 'Roboto', sans-serif; */
+
+
+/* Estilos Default */
+
+* {
+    scroll-behavior: smooth;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #DAA520
+}
+
+h1 {
+    font-family: 'Insaniburger', sans-serif;
+    color: #502214;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    letter-spacing: normal;
+    padding: 20px;
+    padding-top: 50px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    font-family: 'Insaniburger', sans-serif;
+    color: #502214;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-family: 'Insaniburger', sans-serif;
+    color: #502214;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #3D3D3D;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.btn-general {
+    background-color: #d62101;
+    border-radius: 17px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding: 12px 50px;
+    text-decoration: none;
+    border: none;
+    margin: 50px;
+}
+
+.btn-general:hover {
+    -webkit-box-shadow: 0px 0px 60px 6px rgba(255, 215, 0, 1);
+    -moz-box-shadow: 0px 0px 60px 6px rgba(255, 215, 0, 1);
+    box-shadow: 0px 0px 60px 6px rgba(255, 215, 0, 1);
+}
+
+.btn-idioma {
+    background-color: #d62101;
+    border-radius: 17px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    padding: 12px 25px;
+    text-decoration: none;
+    border: none;
+    margin: 10px;
+}
+
+.btn-idioma:hover {
+    -webkit-box-shadow: 0px 0px 60px 6px rgba(245, 245, 245, 245);
+    -moz-box-shadow: 0px 0px 60px 6px rgba(245, 245, 245, 245);
+    box-shadow: 0px 0px 60px 6px rgba(245, 245, 245, 245);
+}
+
+.container {
+    max-width: 2000px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+
+/* Header */
+
+#stick {
+    top: 0;
+    position: sticky;
+}
+
+header {
+    background-color: #DAA520;
+    height: 100px;
+    width: 100%;
+}
+
+#logo {
+    margin-left: 50px;
+    height: 150px;
+}
+
+#logo:hover {
+    height: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #502214;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    color: aliceblue;
+    animation: texto 0.5s ease-in-out;
+    animation-direction: alternate;
+}
+
+.container-nav {
+    width: 100%;
+    max-width: 200rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes texto {
+    from {
+        color: #502214;
+    }
+    100% {
+        color: aliceblue;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .container-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+
+/* Main */
+
+
+/* Section 1 */
+
+#title {
+    font-family: 'Insaniburger', sans-serif;
+    color: #502214;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    letter-spacing: normal;
+    padding: 20px;
+    padding-top: 130px;
+}
+
+#section1 {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    height: 70vh;
+    background-image: url(./img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-main {
+    background-color: #d62101;
+    border-radius: 17px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding: 12px 50px;
+    text-decoration: none;
+    border: none;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.btn-main:hover {
+    -webkit-box-shadow: 0px 0px 56px 15px rgba(255, 215, 0, 1);
+    -moz-box-shadow: 0px 0px 56px 15px rgba(255, 215, 0, 1);
+    box-shadow: 0px 0px 56px 15px rgba(255, 215, 0, 1);
+}
+
+
+/* Section 2 */
+
+#section2 {
+    margin-top: 0;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#h2-ubi {
+    margin-top: 0px;
+    font-size: 7vh;
+    text-decoration: underline;
+    padding: 50px 12px;
+}
+
+span {
+    color: #DAA520;
+}
+
+#mapa {
+    margin: 20px;
+}
+
+
+/* Section 3 */
+
+#best-sellers h2 {
+    margin-bottom: 50px;
+}
+
+#best-sellers .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#best-sellers .img-text {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.img-text p,
+.img-text h3 {
+    color: #ffffff;
+    padding: 15px;
+}
+
+.img-text p {
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.img-text:first-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/menu-1.jpg");
+}
+
+.img-text:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/menu-3.jpg");
+}
+
+.img-text:last-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/menu-2.jpg");
+}
+
+
+/* Section 4 */
+
+#tienes-hambre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6vh;
+}
+
+
+/* Footer */
+
+footer div {
+    height: 6.5vh;
+    background-color: #3A3939;
+    text-align: center;
+    justify-content: center;
+}
+
+footer div p {
+    padding-top: 3vh;
+    color: white;
+}
+
+#best {
+    font-size: 18vh;
+    line-height: 20vh;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #502214;
+    text-align: center;
+}
+
+
+/* Form */
+
+.formulario {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+
+.form-h1 {
+    padding: 5px;
+    text-align: center;
+    color: #DAA520;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #DAA520;
+    border-radius: 4px;
+}
+
+.form-btn {
+    padding: 10px;
+    background-color: #DAA520;
+    color: #ffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-btn:hover {
+    background-color: #FFD700;
+}
+
+
+/* Extras */
+
+.up-btn {
+    display: inline-block;
+    text-decoration: none;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    position: fixed;
+    left: 185vh;
+    top: 85vh;
+}

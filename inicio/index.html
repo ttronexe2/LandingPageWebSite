@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Salle Fast Food</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="/js/index.js" defer></script>
+    <link rel="icon" href="/img/Logo-1.svg" type="image/x-icon">
+</head>
+
+
+
+<main id="portada">
+
+    <header class="container-nav" id="stick">
+        <div class="row">
+            <a href="index.html"><img src="img/Logo-2.svg" alt="Logo" id="logo"></a>
+        </div>
+        <nav>
+            <a href="#portada" id="nav-home">Inicio</a>
+            <a href="" id="nav-menu">Menú</a>
+            <a href="" id="nav-about">Sobre Nosotros</a>
+            <a href="#formulario" id="nav-contact">Contacto</a>
+
+        </nav>
+        <div>
+            <div>
+                <select class="btn-idioma" onchange="changeLanguage(this.value)">
+                    <option value="ca">Català</option>
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <section id="section1">
+
+        <h1 id="title">Las Mejores <br>Hamburguesas de Barcelona</h1>
+        <button class="btn-main" id="btn-title">Pide Ahora!</button>
+
+    </section>
+
+    <section id="section2">
+
+
+        <div class="container">
+
+            <div class="img"></div>
+            <h2 id="h2-ubi">Dónde nos <span>Ubicamos</span></h2>
+            <p id="text-ubi">Si viene en metro, recomendamos bajar en Lesseps L3 y andar 10 minutos hasta la ubicación</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.4788684826017!2d2.15200767656687!3d41.40712249477008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a35508611d17%3A0x520ffb2ea020d42!2sColegio%20de%20La%20Salle%20Gracia!5e0!3m2!1ses!2ses!4v1705672207035!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+        </div>
+    </section>
+    <section id="best-sellers">
+        <div class="container">
+
+            <h2 id="best">Best Sellers</h2>
+            <div class="main-menus row">
+                <div class="img-text">
+                    <h3>Big Chicken</h3>
+                    <p id="text-1">Explora el menú "Big Chicken" en La Salle Fast Food con la suculenta Big Clucker Burger, pechugas jugosas, queso derretido, Golden Wings crujientes y patatas sazonadas. Un festín irresistible que satisface tus antojos de pollo. ¡Disfruta!</p>
+                    <button class="btn-general" id="ver1">Ver +</button>
+                </div>
+                <div class="img-text">
+                    <h3>Cheese Burger</h3>
+                    <p id="text-2">Descubre el menú "Cheese Burger" en La Salle Fast Food . Disfruta de la Cheese Supreme Burger con jugosas hamburguesas de ternera, queso derretido y papas sazonadas. Satisface tu antojo de sabor irresistible. ¡Deléitate!</p>
+                    <button class="btn-general" id="ver2">Ver +</button>
+
+                </div>
+                <div class="img-text">
+                    <h3>Kids Chicken</h3>
+                    <p id="text-3">Los peques también comen! Descubre el menú "Kids Chicken". El menú se compone de una hamburguesa Chicken Burguer, unas patatas pequeñas, una bebida y un postre.Ven y disfrutar toda la familia!</p>
+                    <button class="btn-general" id="ver3">Ver +</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="tienes-hambre">
+        <h2 id="title-hambre">¿Tienes hambre?</h2>
+        <br>
+        <button class="btn-general" id="btn-hambre">Pide Ahora!</button>
+    </section>
+    <div class="formulario" id="formulario">
+        <h1 class="form-h1" id="label-contact">Contacto</h1>
+        <form action="#" method="post" netlify>
+            <label for="nombre" id="label-name">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido" id="label-lastname">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="gmail" id="label-mail">Correo electrónico:</label>
+            <input type="email" id="gmail" name="gmail" required>
+
+            <label for="mensaje" id="label-message">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit" class="form-btn" id="label-submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        <div>
+            <p>&copy; La Salle Fast Food 2024</p>
+        </div>
+    </footer>
+</main>
+<a class="up-btn" href="#portada"><img src="/img/scroll.png" alt="scroll"></a>
+
+</html>

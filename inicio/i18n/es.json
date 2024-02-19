@@ -1,0 +1,39 @@
+{
+    "nav": {
+        "nav1": "Inicio",
+        "nav2": "Menú",
+        "nav3": "Sobre nosotro",
+        "nav4": "Contacto"
+    },
+    "h1": {
+        "h1": "LAS MEJORES <br/> HAMBURGUESAS DE BARCELONA"
+    },
+
+    "btn": {
+        "btn": "Pide Ahora!",
+        "ver": "Ver +"
+    },
+
+    "h2": {
+        "h2": "Dónde nos <span> Ubicamos </span>"
+    },
+
+    "text": {
+        "text1": "Explora el menú 'Big Chicken' en La Salle Fast Food con la suculenta Big Clucker Burger, pechugas jugosas, queso derretido, Golden Wings crujientes y patatas sazonadas. Un festín irresistible que satisface tus antojos de pollo. ¡Disfruta!",
+        "text2": "Descubre el menú 'Cheese Burger' en La Salle Fast Food . Disfruta de la Cheese Supreme Burger con jugosas hamburguesas de ternera, queso derretido y papas sazonadas. Satisface tu antojo de sabor irresistible. ¡Deléitate!",
+        "text3": "Los peques también comen! Descubre el menú 'Kids Chicken'. El menú se compone de una hamburguesa Chicken Burguer, unas patatas pequeñas, una bebida y un postre.Ven y disfrutar toda la familia!",
+        "text4": "Si viene en metro, recomendamos bajar en Lesseps L3 y andar 10 minutos hasta la ubicación"
+    },
+
+    "hambre": {
+        "h2": "¿Tienes Hambre?"
+    },
+
+    "form": {
+        "f1": "Contacto:",
+        "f2": "Nombre:",
+        "f3": "Apellido:",
+        "f4": "Correo:",
+        "f5": "Mensaje:"
+    }
+}
